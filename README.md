@@ -19,7 +19,7 @@
 
 > We designed this plugin extension as a humanized UI element for social networking sites that need to facilitate relations between people. Research shows that people are extremely sensitive to photos of others, so we needed to revamp the traditional UI elements to make them more intuitive and human.
 
-#### NOTE
+## NOTE
 
 websemantics/ImageSelect Got Abandoned By Its Owner, This Forked Working Fine As Missing Files Has Been Added.
 
