@@ -71,7 +71,30 @@ bower info image-select
 
 ## Usage
 
-You only need to add a `data-img-src` attribute to your `<option>` tag.
+First Add below styles before `</head>` tag and required scripts before `</body>` tag.
+
+```html
+<link rel="stylesheet" href="src/css/semantic.min.css">
+<link rel="stylesheet" href="src/css/codemirror.css">
+<link rel="stylesheet" href="src/css/mdn-like.css">
+<link rel="stylesheet" href="src/css/chosen.css">
+<link rel="stylesheet" href="src/css/ImageSelect.css">
+<link rel="stylesheet" href="src/css/Flat.css">
+
+.................
+
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/chosen.jquery.js"></script>
+<script src="src/js/ImageSelect.jquery.js"></script>
+<script src="src/js/codemirror.js"></script>
+<script src="src/js/xml.js"></script>
+<script src="src/js/javascript.js"></script>
+<script src="src/js/shell.js"></script>
+<script src="src/js/tmlmixed.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/websemantics/bragit/0.1.2/bragit.js"></script>
+```
+
+Then you need to add a `data-img-src` attribute to your `<option>` tag.
 
 ```html
 <select class="my-select">
